@@ -29,7 +29,7 @@ export default function App() {
         <SafeAreaProvider>
           <SafeAreaView style={styles.rootScreen}>
             {userNumber ? (
-              <GameScreen />
+              <GameScreen userNumber={userNumber} />
             ) : (
               <StartGameScreen onConfirmNumber={pickedNumberHandler} />
             )}
