@@ -29,7 +29,7 @@ const StartGameScreen = (props) => {
       return;
     }
 
-    props.onConfirmNumber(chosenNumber);
+    props.onPickNumber(chosenNumber);
   }
 
   return (
